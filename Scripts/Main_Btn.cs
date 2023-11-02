@@ -26,4 +26,9 @@ public class Main_Btn : MonoBehaviour
     {
         SceneManager.LoadScene("StartScene");
     }
+
+    public void toSelect()
+    {
+        SceneManager.LoadScene("SelectScene");
+    }
 }
